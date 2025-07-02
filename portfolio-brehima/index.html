@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio | Coulibaly Brehima</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: #0f0f0f;
+      font-family: 'Segoe UI', sans-serif;
+      color: white;
+    }
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 50px;
+      background: #0f0f0f;
+    }
+    nav h2 {
+      color: white;
+    }
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 30px;
+    }
+    nav ul li a {
+      color: #ccc;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    nav ul li a:hover {
+      color: #0f0;
+    }
+    .hero {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 60px 100px;
+      background: linear-gradient(145deg, #0f0f0f, #1a1a1a);
+    }
+    .hero-left {
+      max-width: 50%;
+    }
+    .hero-left h1 {
+      font-size: 48px;
+      margin-bottom: 10px;
+    }
+    .hero-left span {
+      color: #0f0;
+    }
+    .hero-left p {
+      line-height: 1.6;
+      margin-bottom: 20px;
+      color: #aaa;
+    }
+    .hero-left .buttons {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+    }
+    .hero-left .buttons a {
+      background: #0f0;
+      padding: 10px 20px;
+      color: #000;
+      font-weight: bold;
+      border-radius: 5px;
+      text-decoration: none;
+    }
+    .hero-right img {
+      width: 300px;
+      height: 300px;
+      border-radius: 50%;
+      border: 3px solid #0f0;
+      object-fit: cover;
+    }
+    section {
+      padding: 60px 100px;
+    }
+    h2 {
+      color: #0f0;
+      margin-bottom: 20px;
+    }
+    .service, .experience, .project, .education {
+      margin-bottom: 60px;
+    }
+    ul {
+      padding-left: 20px;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <h2>Portfolio.</h2>
+    <ul>
+      <li><a href="#service">Service</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#project">Project</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section class="hero">
+    <div class="hero-left">
+      <h1>Coulibaly Brehima</h1>
+      <h2>I'm a <span>Full Stack Developer</span></h2>
+      <p>
+        Étudiant en développement web passionné par les technologies modernes. Je conçois des applications web performantes et esthétiques.
+      </p>
+      <div class="buttons">
+        <a href="#">Download CV</a>
+        <a href="https://www.linkedin.com" target="_blank">LinkedIn</a>
+        <a href="https://github.com/brehima" target="_blank">GitHub</a>
+        <a href="mailto:brehima213@gmail.com">Email</a>
+      </div>
+    </div>
+    <div class="hero-right">
+      <img src="https://via.placeholder.com/300" alt="Photo de Brehima" />
+    </div>
+  </section>
+
+  <section id="service" class="service">
+    <h2>Service</h2>
+    <p>Développement de sites web dynamiques, applications full stack, intégration responsive, maintenance et optimisation de performances.</p>
+  </section>
+
+  <section id="experience" class="experience">
+    <h2>Experience</h2>
+    <ul>
+      <li>Stagiaire chez <strong>Ouéso</strong> (actuellement) : mise à jour de site e-commerce, optimisation SEO, diverses missions techniques.</li>
+      <li>Stagiaire chez <strong>SALEEM</strong> (Mali) : développement d'un site e-commerce complet.</li>
+      <li>Projet académique : interface de gestion hôtelière (front-end).</li>
+      <li>Stage chez <strong>Diarra Transports</strong> : mise en place d'un système de réservation en ligne.</li>
+    </ul>
+  </section>
+
+  <section id="project" class="project">
+    <h2>Projets</h2>
+    <ul>
+      <li><strong>Application Taxi Mali</strong> : Inscription des chauffeurs avec frais, géolocalisation, appel direct des utilisateurs.</li>
+      <li><strong>Plateforme Stage Étudiants (Mali)</strong> : Espace payant d’inscription, mise en relation étudiants et entreprises.</li>
+      <li>Site e-commerce multi-vendeur</li>
+      <li>Plateforme de réservation en ligne (Diarra Transports)</li>
+      <li>Interface de gestion hôtelière</li>
+    </ul>
+  </section>
+
+  <section id="education" class="education">
+    <h2>Éducation</h2>
+    <p>Bachelor 3 Développement Full Stack – Collège de Paris (2024-2025)<br>
+       BTS Informatique de gestion – Eco-Sup, Mali (2023-2024)</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email : <a href="mailto:brehima213@gmail.com">brehima213@gmail.com</a></p>
+    <p>GitHub : <a href="https://github.com/brehima" target="_blank">github.com/brehima</a></p>
+  </section>
+</body>
+</html>
